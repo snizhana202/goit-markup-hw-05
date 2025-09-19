@@ -529,25 +529,35 @@ img {
   background-color: transparent;
   padding-left: 16px;
   padding-right: 16px;
+  font-size: 12px;
+  line-height: 2px;
+  letter-spacing: 0.04em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+
 
   &::placeholder {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
   }
 }
 
 .footer-btn {
   padding-block: 8px;
   padding-inline: 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   gap: 16px;
+}
+
+.footer-svg {
+  margin-left: 16px;
 }
 
 /* -----------------FOOTER-------------------- */
