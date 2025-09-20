@@ -564,14 +564,8 @@
     <div class="overlay is-open">
       <div class="modal">
         <button type="button" class="btn">
-          <svg
-            class="overlay-svg"
-            width="8"
-            height="8"
-        
-          >
-          <use href="./images/icons.svg#icon-close"></use>
-            
+          <svg class="overlay-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
@@ -601,14 +595,13 @@
                 placeholder="Phone number"
                 name="user-number"
                 id="user-number"
-                
               />
               <svg class="input-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phon"></use>
               </svg>
             </div>
           </div>
-          
+
           <div class="modal-field">
             <label for="user-email" class="modal-input-label">Email</label>
             <div class="icon-wrapper">
@@ -636,7 +629,7 @@
           <div class="modal-field-third">
             <input
               type="checkbox"
-              class="visually-hidden"
+              class="modal-check visually-hidden"
               name="user-privacy"
               id="user-privacy"
               value="true"
@@ -646,8 +639,7 @@
                 ><svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use></svg></span>
               I accept the terms and conditions of the
-              <a href="">Privacy Policy</a></label
-            >
+              <a href="">Privacy Policy</a></label>
           </div>
           <button type="submit" class="main-button">Send</button>
         </form>
