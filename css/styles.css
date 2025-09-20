@@ -682,7 +682,7 @@ h6 {
 }
 
 .modal-input:focus + .input-icon {
-  border-color: #4d5ae5;
+  fill: #4d5ae5;
 }
 
 .modal-input-label {
@@ -780,4 +780,8 @@ h6 {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-link {
+  color: var(--link-color, #4d5ae5);
 }
